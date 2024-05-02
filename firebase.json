@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/si729-2401-ws51-Event-Wear/browser",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
